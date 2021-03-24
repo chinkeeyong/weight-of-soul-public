@@ -246,7 +246,7 @@ Last after printing the player's obituary:
 	if story has ended finally:
 		say line break;
 		say "Thank you for completing the Spring Thing 2021 release of [italic type]The Weight of a Soul[roman type].[line break]";
-		say "You can send me comments, criticism, and feedback at the following link: [bold type]https://tinyurl.com/TWOASFeedback[roman type][line break]";
+		say "You can send me feedback at the following link: [bold type]https://tinyurl.com/TWOASFeedback[roman type][line break]";
 		say "Alternatively, you can contact me directly at [bold type]chinkeeyong@gmail.com[roman type].[line break]";
 		say line break;
 		say "Thanks again for playing [italic type]The Weight of a Soul![roman type]";
