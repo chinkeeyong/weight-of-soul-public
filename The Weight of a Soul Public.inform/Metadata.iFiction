@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <ifid>40583C4F-E40B-4BAA-881E-D7F842F7069F</ifid>
+            <format>glulx</format>
+        </identification>
+        <bibliographic>
+            <title>The Weight of a Soul</title>
+            <author>Chin Kee Yong</author>
+            <headline>A study of the ars vitalis</headline>
+            <genre>Mystery</genre>
+            <firstpublished>2021</firstpublished>
+            <description>In a world of arcane mysteries, a young doctor's apprentice unravels a conspiracy most grim.</description>
+            <language>en</language>
+            <group>Inform</group>
+        </bibliographic>
+        <cover>
+            <format>jpg</format>
+            <height>960</height>
+            <width>960</width>
+            <description>An insignia of the ars vitalis stained black</description>
+        </cover>
+        <releases>
+            <attached>
+                <release>
+                    <releasedate>2021-03-24</releasedate>
+                    <version>240321</version>
+                    <compiler>Inform 7</compiler>
+                    <compilerversion>6M62</compilerversion>
+                </release>
+            </attached>
+        </releases>
+        <colophon>
+            <generator>Inform 7</generator>
+            <generatorversion>6M62</generatorversion>
+            <originated>2021-03-24</originated>
+        </colophon>
+        <glulx>
+            <serial>210324</serial>
+            <release>240321</release>
+            <compiler>Inform 7 build 6M62</compiler>
+            <coverpicture>1</coverpicture>
+        </glulx>
+    </story>
+</ifindex>
