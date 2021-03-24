@@ -46,11 +46,17 @@
   overflow-x: hidden; /* but horizontal scrollbar is forbidden */
   font-size: 18px;
   line-height: 1.4;
-  padding: 6px 10px 6px 10px;
+  padding: 20px 120px;
+}
+
+@media screen and (max-width: 800px) {
+  .BufferWindow {
+    padding: 20px 50px;
+  }
 }
 
 .GridWindow {
-  background: #335;
+  background: #223;
   overflow: hidden;
   font-family: Oxygen Mono, monaco, andale mono, lucidatypewriter, courier, courier new, monospace; /* necessary! */
   font-size: 15px;
@@ -74,7 +80,7 @@
      of a window when it needs paging. */
   font-weight: bold;
   position: absolute;
-  background: #334;
+  background: #223;
   color: #FFF;
   opacity: 0.5;
   padding: 2px 6px;
@@ -129,8 +135,20 @@
 .ImageInlineCenter {
   vertical-align: middle;
   display: block;
-  margin: auto;
-  width: 100%;
+  margin: 0px -120px;
+  width: 1014px;
+}
+
+@media screen and (max-width: 1024px) {
+  .ImageInlineCenter {
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .ImageInlineCenter {
+    margin: 0px -50px;
+  }
 }
 
 .FlowBreak {
