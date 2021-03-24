@@ -1,7 +1,7 @@
 "The Weight of a Soul" by Chin Kee Yong
 
 The story headline is "A study of the ars vitalis".
-The story genre is "Fantasy".
+The story genre is "Mystery".
 The release number is 240321.
 The story description is "In a world of arcane mysteries, a young doctor's apprentice unravels a conspiracy most grim."
 The story creation year is 2021.
@@ -49,7 +49,8 @@ Use MAX_STATIC_DATA of 2880000.
 Use MAX_SYMBOLS of 60000.
 Use MAX_VERBS of 511.
 Use SYMBOLS_CHUNK_SIZE of 10000.
-Release along with a "Marid" website and the "SpookyQuixe" interpreter.
+
+Release along with cover art ("An insignia of the ars vitalis stained black"), a "Marid" website and the "SpookyQuixe" interpreter.
 
 Part 1.1.2 - Extensions
 
@@ -388,7 +389,7 @@ To say skip-commands-text:
 Part 1.1.8 - Spring Thing 2021 Build Messages
 
 After printing the banner text when Vorple is not supported:
-	say "Thank you for playing the Spring Thing 2021 release of [italic type]The Weight of a Soul![roman type]";
+	say "Thank you for playing the Spring Thing 2021 release of [italic type]The Weight of a Soul![roman type][line break]";
 	say "For more information, visit [bold type]https://chinkeeyong.wordpress.com/the-weight-of-a-soul/[roman type][line break]";
 	
 Last after printing the player's obituary:
