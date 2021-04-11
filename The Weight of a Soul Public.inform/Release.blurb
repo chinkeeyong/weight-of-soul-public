@@ -20,7 +20,7 @@ picture 3 "C:\Users\Kee Yong\Documents\Inform\Projects\weight-of-soul-public\The
 ! Placeholder variables
 
 placeholder [IFID] = "40583C4F-E40B-4BAA-881E-D7F842F7069F"
-placeholder [RELEASE] = "240321"
+placeholder [RELEASE] = "110421"
 placeholder [YEAR] = "2021"
 placeholder [TITLE] = "The Weight of a Soul"
 placeholder [AUTHOR] = "Chin Kee Yong"

@@ -2,7 +2,7 @@
 
 The story headline is "A study of the ars vitalis".
 The story genre is "Mystery".
-The release number is 240321.
+The release number is 110421.
 The story description is "In a world of arcane mysteries, a young doctor's apprentice unravels a conspiracy most grim."
 The story creation year is 2021.
 
@@ -913,6 +913,7 @@ To skip Hiding from Serpens:
 	move the player to Noctis Storage, without printing a room description;
 	now the opaque black vats are examined;
 	now serpens-hiding-sequence-begun is true;
+	now Doctor Serpens is in Hydromotive Control;
 	follow the scene changing rules;
 
 To skip past Day Three:
@@ -2796,7 +2797,7 @@ Instead of asking someone to try doing something, say generic TALK TO tutorial.
 Instead of answering someone that something, say generic TALK TO tutorial.
 
 To say generic TALK TO tutorial:
-	say "(Use the command [begincmd]talk to[endcmd] or [begincmd]t[endcmd] to converse with other characters.)"
+	say "(Use the command [begincmd]talk to[endcmd] or [begincmd]t[endcmd] to converse with other characters.) "
 
 Chapter 2.3.9.3 - Engaged in Dialogue
 
@@ -21458,6 +21459,7 @@ To begin the Hiding from Serpens sequence:
 		say "You cannot look away from those black vats. There's something about them...";
 	otherwise:
 		now serpens-hiding-sequence-begun is true;
+		now Doctor Serpens is in Hydromotive Control;
 		say "You stumble back, away from the cold, away from the terrible [italic type]nothingness[roman type] that in those pillars broils. You are fumbling, looking for the exit, when --[paragraph break]";
 		wait for any key;
 		say "'...someone there?'[paragraph break]";
@@ -21470,7 +21472,7 @@ To begin the Hiding from Serpens sequence:
 		wait for any key;
 		say "You need to hide. Now.";
 		
-Every turn when Hiding from Serpens is happening (this is the Serpens doom counter rule):
+Every turn when Hiding from Serpens is happening and Doctor Serpens is in Hydromotive Control (this is the Serpens doom counter rule):
 	increase serpens-doom-counter by 1;
 	if serpens-doom-counter is 2:
 		say "You hear the sound of the pistons being rearranged outside.";
@@ -21545,6 +21547,7 @@ To start the final scene of Day Three:
 	say "You stand up in the chamber, very, very slowly, making sure that you are out of the thin light streaming through the crystal window. Then you brace yourself against the door and put one eye to the scene in the warped glass.[paragraph break]";
 	wait for any key;
 	say "You see the receding shape of Doctor Serpens's coat. He steps out of the room, arguing with an adversary just out of earshot. The argument dies down, and you hear the distant echo of footfalls fading into noise.[paragraph break]";
+	now Doctor Serpens is nowhere;
 	wait for any key;
 	say "Then Justinian comes into the room, his coat billowing, his eyes flashing. It is almost as though you can see firelight following him. He stops in the room and looks around, clearly distraught.[paragraph break]";
 	wait for any key;
